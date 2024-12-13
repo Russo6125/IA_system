@@ -12,7 +12,7 @@ from fpdf import FPDF
 import pytz
 import json
 
-st.set_page_config(page_title="TecnoKohler management", page_icon="C:/Users/russo/Desktop/python/IA_system4/favicon.png", layout="wide")
+st.set_page_config(page_title="TecnoKohler management", page_icon="favicon.png", layout="wide")
 
 # Inicializar chaves no st.session_state se não existirem
 if "autenticado" not in st.session_state:
